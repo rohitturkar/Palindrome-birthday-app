@@ -1,0 +1,39 @@
+:root{
+    --primary-color:rgb(245, 207, 156);
+}
+main{
+    display:block;
+    max-width:500px;
+    margin:auto;
+    padding:2rem;
+    background-color:var(--primary-color);
+    border-radius:1rem;
+    text-align:center;
+}
+
+label{
+    font-size:1.4rem;
+}
+
+#date-input{
+    display:block;
+    width:70%;
+    padding:1rem;
+    margin:1rem auto;  
+    border-radius:0.5rem;
+    border:none;
+    font-size:1.2rem;
+}
+
+#btn-Submit{
+    padding:0.5rem 1.5rem;
+    margin:1rem auto;
+    border-radius:0.5rem;
+    font-size:1rem;
+    border:none;
+}
+
+#output{
+    margin:1rem auto;
+    font-size:1.2rem;
+}
